@@ -1,22 +1,55 @@
-.App {
-  text-align: center;
+#bigButton{
+  color:white;
+  background-color: rgb(108, 125, 248);
+  border-radius:100%;
+  height:90px;
+  width:90px;  
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -45px;
+  margin-left: -45px; 
+}
+#letters{
+  position: absolute;
+  margin:auto;
+  margin-left:25px;
+  transition-duration: .15s;
+  display:inline-block;
+  font-weight:200;
+  font-size:68px;
+  transform-origin: center
+}
+.smallerDiv{
+  position: fixed;
+  top: 30%;
+  left: 50%;
+  height:80px;
+  width:80px;
+  border-radius:100%;
+  background-color: rgb(125, 140, 250);
+  margin-left:-40px;
+}
+#pdfDiv{
+  top:17%
+}
+#folder{
+  height:36px;
+  width:36px;
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -18px;
+  margin-left:-18px
+}
+#pdf{
+  height:50px;
+  width:50px;
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -25px;
+  margin-left:-25px
 }
 
-.App-logo {
-  height: 40vmin;
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #09d3ac;
-}
