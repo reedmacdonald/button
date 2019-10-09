@@ -11,6 +11,7 @@
   margin-left: -45px; 
 }
 #letters{
+  pointer-events: none;
   position: absolute;
   margin:auto;
   margin-left:25px;
@@ -27,7 +28,7 @@
   height:80px;
   width:80px;
   border-radius:100%;
-  background-color: rgb(125, 140, 250);
+  background-color: rgb(100, 147, 252);
   margin-left:-40px;
 }
 #pdfDiv{
@@ -43,13 +44,13 @@
   margin-left:-18px
 }
 #pdf{
-  height:50px;
-  width:50px;
+  height:44px;
+  width:44px;
   position:absolute;
   top: 50%;
   left: 50%;
-  margin-top: -25px;
-  margin-left:-25px
+  margin-top: -22px;
+  margin-left:-22px
 }
 
 

@@ -1,4 +1,6 @@
 import React, {Component} from 'react'
+import AdobeLogo from '../Pictures/adobeLogo.png'
+import FolderLogo from '../Pictures/folderLogo.png'
 import '../App.css'
 
 
@@ -9,8 +11,8 @@ class SmallerDiv extends Component{
       clicked:false,
       height:'10px',
       width:'10px',
-      folderTop:'50%',
-      pdfTop:'50%',
+      folderTop:'46%',
+      pdfTop:'46%',
       transform:undefined,
       marginLeft:'-10px'
     }
@@ -32,8 +34,8 @@ class SmallerDiv extends Component{
 
     moveUp=()=>{
         this.setState({
-            folderTop:'30%',
-            pdfTop:'17%'
+            folderTop:'31%',
+            pdfTop:'18%'
         })
     }
     giveHeight=()=>{
@@ -43,8 +45,8 @@ class SmallerDiv extends Component{
     }
     moveAgain=()=>{
         this.setState({
-            folderTop:'28%',
-            pdfTop:'15%'
+            folderTop:'30%',
+            pdfTop:'17%'
         })
     }
     componentDidUpdate(prevProps){
@@ -53,8 +55,8 @@ class SmallerDiv extends Component{
             this.setState({
                 height:'10px',
                 width:'10px',
-                folderTop:'50%',
-                pdfTop:'50%',
+                folderTop:'46%',
+                pdfTop:'46%',
                 marginLeft:'-10px'
             })
         }
@@ -62,8 +64,8 @@ class SmallerDiv extends Component{
   render(){
     return(
   <div>
-      <div style={{marginLeft:this.state.marginLeft, height:this.state.height,width:this.state.width, top:this.state.folderTop, transitionDuration:'.2s',transform:this.state.transform}} id='fileDiv' class='smallerDiv'><img id='folder' src='http://icons.iconarchive.com/icons/dakirby309/simply-styled/256/Blank-Folder-icon.png'></img></div>
-      <div style={{marginLeft:this.state.marginLeft, height:this.state.height,width:this.state.width, top:this.state.pdfTop, transitionDuration:'.2s',transform:this.state.transform}} id='pdfDiv' class='smallerDiv'><img id='pdf' src='https://cdn3.iconfinder.com/data/icons/line-icons-set/128/1-02-512.png'></img></div>
+      <div style={{marginLeft:this.state.marginLeft, height:this.state.height,width:this.state.width, top:this.state.folderTop, transitionDuration:'.2s',transform:this.state.transform}} id='fileDiv' class='smallerDiv'><img id='folder' src={FolderLogo}></img></div>
+      <div style={{marginLeft:this.state.marginLeft, height:this.state.height,width:this.state.width, top:this.state.pdfTop, transitionDuration:'.2s',transform:this.state.transform}} id='pdfDiv' class='smallerDiv'><img id='pdf' src={AdobeLogo}></img></div>
       
   </div>
     )

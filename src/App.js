@@ -1,6 +1,7 @@
 import React, {Component} from 'react'
 import './App.css'
 import SmallerDiv from './Components/SmallerDiv'
+import Plus from './Pictures/plus.png'
 
 
 
@@ -42,7 +43,7 @@ class App extends Component{
     <div onClick={this.changeThings}id='bigButton'>
       {this.state.clicked?<SmallerDiv endeth={this.state.endeth}/>:undefined}
 
-      <div style={{transitionDuration:this.state.transDur,transform:this.state.turn?'rotate(-45deg)':undefined}} id='letters'>+</div>
+      <img style={{marginTop:'24px',transitionDuration:this.state.transDur,transform:this.state.turn?'rotate(-45deg)':undefined}} src={Plus} id='letters'></img>
       </div>
   </div>
     )
