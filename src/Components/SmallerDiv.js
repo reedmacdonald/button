@@ -11,8 +11,8 @@ class SmallerDiv extends Component{
       clicked:false,
       height:'10px',
       width:'10px',
-      folderTop:'46%',
-      pdfTop:'46%',
+      folderTop:'40%',
+      pdfTop:'40%',
       transform:undefined,
       marginLeft:'-10px'
     }
@@ -55,8 +55,8 @@ class SmallerDiv extends Component{
             this.setState({
                 height:'10px',
                 width:'10px',
-                folderTop:'46%',
-                pdfTop:'46%',
+                folderTop:'43%',
+                pdfTop:'43%',
                 marginLeft:'-10px'
             })
         }
