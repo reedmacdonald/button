@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/button/static/css/main.467e2cb7.chunk.css",
-    "main.js": "/button/static/js/main.08f0b708.chunk.js",
-    "main.js.map": "/button/static/js/main.08f0b708.chunk.js.map",
+    "main.css": "/button/static/css/main.5ba6e99b.chunk.css",
+    "main.js": "/button/static/js/main.23fa62eb.chunk.js",
+    "main.js.map": "/button/static/js/main.23fa62eb.chunk.js.map",
     "runtime-main.js": "/button/static/js/runtime-main.61c87145.js",
     "runtime-main.js.map": "/button/static/js/runtime-main.61c87145.js.map",
     "static/js/2.58df0a3b.chunk.js": "/button/static/js/2.58df0a3b.chunk.js",
     "static/js/2.58df0a3b.chunk.js.map": "/button/static/js/2.58df0a3b.chunk.js.map",
     "index.html": "/button/index.html",
-    "precache-manifest.ef57d73f37bed8ecf3b4b25cded2d6da.js": "/button/precache-manifest.ef57d73f37bed8ecf3b4b25cded2d6da.js",
+    "precache-manifest.d1ef9a34b9976708fd8dfdacc6bd726a.js": "/button/precache-manifest.d1ef9a34b9976708fd8dfdacc6bd726a.js",
     "service-worker.js": "/button/service-worker.js",
-    "static/css/main.467e2cb7.chunk.css.map": "/button/static/css/main.467e2cb7.chunk.css.map"
+    "static/css/main.5ba6e99b.chunk.css.map": "/button/static/css/main.5ba6e99b.chunk.css.map"
   },
   "entrypoints": [
     "static/js/runtime-main.61c87145.js",
     "static/js/2.58df0a3b.chunk.js",
-    "static/css/main.467e2cb7.chunk.css",
-    "static/js/main.08f0b708.chunk.js"
+    "static/css/main.5ba6e99b.chunk.css",
+    "static/js/main.23fa62eb.chunk.js"
   ]
 }
