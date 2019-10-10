@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import './App.css'
+import './App.scss'
 import SmallerDiv from './Components/SmallerDiv'
 import Plus from './Pictures/plus.png'
 
@@ -20,7 +20,7 @@ class App extends Component{
           turn:false,
           transDur:'.5s'
         })
-        console.log('Closing in five seconds')
+        
       }
       else{
         this.setState({
@@ -29,7 +29,7 @@ class App extends Component{
           turn:true,
           transDur:undefined
         })
-        console.log('Clicked')
+        
       }
     }
     close=()=>{

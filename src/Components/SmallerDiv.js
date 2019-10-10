@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 import AdobeLogo from '../Pictures/adobeLogo.png'
 import FolderLogo from '../Pictures/folderLogo.png'
-import '../App.css'
+import '../App.scss'
 
 
 
