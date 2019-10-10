@@ -13,13 +13,12 @@ class SmallerDiv extends Component{
       width:'10px',
       folderTop:'40%',
       pdfTop:'40%',
-      transform:undefined,
       marginLeft:'-10px'
     }
     componentDidMount(){
+//I had to mess with this for a little while to get the 'bounce' effect
         setTimeout(this.makeBig,0)
         setTimeout(this.giveHeight,200)
-     
         setTimeout(this.moveUp,200)
         setTimeout(this.moveAgain,400)
     }
@@ -51,7 +50,7 @@ class SmallerDiv extends Component{
     }
     componentDidUpdate(prevProps){
         if(this.props.endeth!==prevProps.endeth){
-
+            //.2 second warning that it'll unmount, so has to do the effects
             this.setState({
                 height:'10px',
                 width:'10px',
@@ -64,8 +63,27 @@ class SmallerDiv extends Component{
   render(){
     return(
   <div>
-      <div style={{marginLeft:this.state.marginLeft, height:this.state.height,width:this.state.width, top:this.state.folderTop, transitionDuration:'.2s',transform:this.state.transform}} id='fileDiv' class='smallerDiv'><img id='folder' src={FolderLogo}></img></div>
-      <div style={{marginLeft:this.state.marginLeft, height:this.state.height,width:this.state.width, top:this.state.pdfTop, transitionDuration:'.2s',transform:this.state.transform}} id='pdfDiv' class='smallerDiv'><img id='pdf' src={AdobeLogo}></img></div>
+      <div style={{
+        marginLeft:this.state.marginLeft, 
+        height:this.state.height,
+        width:this.state.width, 
+        top:this.state.folderTop, 
+        transitionDuration:'.2s',
+        }} 
+        id='fileDiv' class='smallerDiv'>
+        <img id='folder' src={FolderLogo}/>
+        </div>
+      
+      <div style={{
+          marginLeft:this.state.marginLeft, 
+          height:this.state.height,
+          width:this.state.width, 
+          top:this.state.pdfTop, 
+          transitionDuration:'.2s',
+          }} 
+          id='pdfDiv' class='smallerDiv'>
+        <img id='pdf' src={AdobeLogo}/>
+        </div>
       
   </div>
     )
