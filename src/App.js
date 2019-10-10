@@ -33,7 +33,6 @@ class App extends Component{
           turn:true,
           transDur:undefined
         })
-        
       }
     }
     close=()=>{
@@ -54,8 +53,7 @@ class App extends Component{
         transform:this.state.turn
           ?'rotate(-45deg)'
           :undefined}} 
-          src={Plus} id='letters'>     
-          </img>
+          src={Plus} id='letters'/>     
       </div>
   </div>
     )
